@@ -1,0 +1,52 @@
+body,html {
+    width: 100%;
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+    background: url('C:/Users/Agni/Desktop/Assignments/header.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+h1
+{
+    font-size: 3rem;
+    color: #e2dbdb;
+}
+
+hr
+{
+    margin: 20px auto;
+    color: #F05F44;
+    border: 3px solid #F05F44;
+    max-width: 65px;
+    opacity: 1;
+}
+
+.buffer
+{
+    height: 12rem;
+}
+button
+{
+    background-color: #ff7b00;
+    border: 1px solid #F05F44;
+    border-radius: 300px;
+    color: white;
+    display: inline-block;
+    padding: 15px 35px;
+    text-decoration: none;
+    margin: 25px 0;
+    transition: all 0.2s ease-in-out;
+}
+
+button:hover,button:focus
+{
+    background-color: #ff6600;
+    box-shadow: 0 1.5em 1.5em -1.4em #ee4b08;
+    text-shadow: 1px 1px 1px;
+    transform: translateY(-0.25em);
+    cursor: pointer;
+}
+
